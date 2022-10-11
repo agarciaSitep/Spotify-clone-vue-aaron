@@ -1,13 +1,13 @@
 # Spotify-clone-vue-aaron
 
-ntroduction
+# Introduction
 This document will outline the requirements of your next project. You’re going to build a simple To-do app with Vue.js that allows users to create an account, record tasks, edit them and mark them as complete. The app will be linked to a database, where all the user and task data will be stored. The database that we’ll use for this project is Supabase. We’ll also be using Vite as a build tool to compile our code and provide a development server while we work.
 
 In the following lessons, you will find introductory notes on databases.
 
 You’ll need to use the CSS skills you’ve learned earlier in the course to style your app. You can pick any UI library to work with such as Bootstrap, Vue Element Plus, Vuetify, or write your own styles for bonus points.
 
-Learning goals
+# Learning goals
 At the end of this project you will be able to:
 
 Use Vue.js to create an app
@@ -26,7 +26,7 @@ You should document the application’s features, configuration and technical sp
 Deliverables
 The functionality should include:
 
-Authentication (sign up, sign in, sign out)
+# Authentication (sign up, sign in, sign out)
 A front-end that displays the user’s personal to-do list
 An ability to add new tasks
 An ability to edit existing tasks
@@ -42,7 +42,7 @@ This strategy is referred to as Behavior-Driven Development (BDD) and it will fo
 
 Here are the user stories you’ll need to consider to ensure that the app functions as required for this project:
 
-Authentication
+# Authentication
 Copy
 Feature: Create an account  
   Background: As a new user, I want to register with the to-do app
@@ -267,7 +267,7 @@ onMounted(async () => {
 })
 </script>
  
-Code standards & “gotchas”
+# Code standards & “gotchas”
 It’s always important to consider the way in which you write your code. We suggest you add eslint along with eslint-plugin-vue to your codebase to automatically check and lint your code. You can find more detailed instructions on how to do this here.
 
 We also suggest you follow the following principles when dealing with your store:
@@ -282,10 +282,10 @@ Supabase requires users to confirm their email addresses. This can be turned off
 Databases and SQL
 Check the following lesson in the lesson plan to learn more about Databases and SQL.
 
-Supabase
+# Supabase
 Check the following lesson in the lesson plan to learn how to setup and use Supabase.
 
-User interface
+# User interface
 We’ve not defined a user interface or a design that we want you to use, so use your CSS skills and get creative. Because we’re using Vue, we can make it a single page that includes components for the new task input, task list items and headers, etc.
 
 You’re welcome to apply your own design and layout. You can pick any UI library to work with such as Bootstrap, Vue Element Plus, Vuetify, or write your own styles.
