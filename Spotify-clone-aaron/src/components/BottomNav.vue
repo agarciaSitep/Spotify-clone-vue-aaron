@@ -13,8 +13,9 @@
     position: fixed;
     width: 100vw;
     bottom: 0;
-    height: 80px;
-    background-color: #584949;
+    height: 100px;
+    background-color: #212121;
+    border-top: 0.1px solid #535353;
   }
   </style>
   
